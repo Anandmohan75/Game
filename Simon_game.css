@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(252, 221, 183);
+}
+
+@media all and (max-width : 1542px) {
+    .btn {
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 20%;
+        margin: 10px;
+        padding: 0%;
+    }
+
+}
+
+@media all and (max-width : 450px) {
+    .btn {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 20%;
+        margin: 10px;
+    }
+
+}
+
+input {
+    height: 15px;
+    width: 25px;
+    margin-left: 0px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    ;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.blue {
+    background-color: #f99b45;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.Flash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
+
+@media all and (max-width : 1542px) {
+    .gameOver {
+        text-align: center;
+        font-weight: 900px;
+        font-size: 200px;
+        margin-top: -360px;
+        color: black;
+    }
+
+}
+
+@media all and (max-width : 450px) {
+    .gameOver {
+        text-align: center;
+        font-weight: 450px;
+        font-size: 140px;
+        margin-top: -250px;
+        color: black;
+    }
+
+
+}
